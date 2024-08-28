@@ -1,0 +1,30 @@
+name: Testcontainers nodejs example
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Use Node.js 20
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Install Docker
+      uses: docker-practice/actions-setup-docker@master
+
+    - name: Run tests with Testcontainers
+      run: npm run debug
+      env:
+        TESTCONTAINERS_DOCKER_IMAGE: postgres:16.4-alpine
