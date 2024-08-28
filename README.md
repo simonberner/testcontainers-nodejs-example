@@ -15,6 +15,12 @@ For running containers, we currently have the following options:
 
 - [Your Account Dashboard](https://app.testcontainers.cloud)
 
+## GitHub Actions
+
+This project contains a [GitHub Action](https://github.com/simonberner/testcontainers-nodejs-example/actions) which runs the Tests (of course in a Testcontainer) when pushing/merging to main.
+
+[![Testcontainers nodejs example](https://github.com/simonberner/testcontainers-nodejs-example/actions/workflows/ci.yml/badge.svg)](https://github.com/simonberner/testcontainers-nodejs-example/actions/workflows/ci.yml)
+
 ## Credits
 
 - The project is based on [this guide](https://testcontainers.com/guides/getting-started-with-testcontainers-for-nodejs/)
