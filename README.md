@@ -1,5 +1,9 @@
 # Testcontainers Node.js Example
 
+[![Testcontainers nodejs example](https://github.com/simonberner/testcontainers-nodejs-example/actions/workflows/ci.yml/badge.svg)](https://github.com/simonberner/testcontainers-nodejs-example/actions/workflows/ci.yml)
+
+## About
+
 - [Getting Started](https://testcontainers.com/getting-started/)
 - [Getting Started with Node.js](https://testcontainers.com/guides/getting-started-with-testcontainers-for-nodejs/)
 
@@ -7,9 +11,9 @@
 
 For running containers, we currently have the following options:
 
-- We can use Docker Desktop to run the containers locally
-- We can use Testcontainers Desktop to run containers locally (embedded runtime) or in the cloud (300min for free)
-- [Enable reusable containers](https://testcontainers.com/guides/simple-local-development-with-testcontainers-desktop/#_enable_reusable_containers_to_speed_up_the_development)
+- Use Docker Desktop to run the containers locally
+- Use [Testcontainers Desktop App](https://testcontainers.com/desktop/) to run containers locally (embedded runtime) or in the cloud (300min for free)
+- Use [GitHub Actions to run a Testcontainer](https://www.atomicjar.com/2023/06/running-testcontainers-tests-using-github-actions/)
 
 ## Testcontainers Cloud
 
@@ -19,7 +23,9 @@ For running containers, we currently have the following options:
 
 This project contains a [GitHub Action](https://github.com/simonberner/testcontainers-nodejs-example/actions) which runs the Tests (of course in a Testcontainer) when pushing/merging to main.
 
-[![Testcontainers nodejs example](https://github.com/simonberner/testcontainers-nodejs-example/actions/workflows/ci.yml/badge.svg)](https://github.com/simonberner/testcontainers-nodejs-example/actions/workflows/ci.yml)
+## Resources
+
+- [Enable reusable containers](https://testcontainers.com/guides/simple-local-development-with-testcontainers-desktop/#_enable_reusable_containers_to_speed_up_the_development)
 
 ## Credits
 
