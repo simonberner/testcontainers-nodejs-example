@@ -1,6 +1,7 @@
 # Testcontainers Node.js Example
 
 [![Testcontainers nodejs example](https://github.com/simonberner/testcontainers-nodejs-example/actions/workflows/ci.yml/badge.svg)](https://github.com/simonberner/testcontainers-nodejs-example/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](https://github.com/simonberner/testcontainers-nodejs-example/blob/main/LICENSE)
 
 ## About
 
