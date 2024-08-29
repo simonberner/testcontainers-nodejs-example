@@ -10,7 +10,7 @@ describe("Customer repository", () => {
 
     beforeAll(async () => {
         // setup container (reusable to speed up testing) and client
-        postgresContainer = await new PostgreSqlContainer("postgres:16.4-alpine").withReuse(true).start();;
+        postgresContainer = await new PostgreSqlContainer("postgres:16.4-alpine").withReuse(true).start();
         postgresClient = new Client({ connectionString: postgresContainer.getConnectionUri() });
         // create customer table
         await postgresClient.connect();
