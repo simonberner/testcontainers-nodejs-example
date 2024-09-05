@@ -1,6 +1,6 @@
 const { Client } = require("pg");
 const { PostgreSqlContainer } = require("@testcontainers/postgresql");
-const { createCustomerTable, createCustomer, getCustomers } = require("./customer-repository");
+const { createCustomerTable, createCustomer, getCustomers } = require("../../customer-repository");
 
 describe("Customer repository", () => {
     jest.setTimeout(60000);
