@@ -43,6 +43,11 @@ logs
 .DS_Store
 Thumbs.db
 
+# Playwright reports
+playwright-report/
+test-results/
+test-results/
+
 # Optional npm cache directory
 .npm
 
