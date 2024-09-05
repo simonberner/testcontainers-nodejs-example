@@ -4,6 +4,7 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
+    "test:web": "npx playwright test",
     "debug": "DEBUG=testcontainers* npm test"
   },
   "keywords": [],
