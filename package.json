@@ -4,7 +4,7 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:web": "npx playwright test",
+    "start": "DEBUG=testcontainers* npx playwright test",
     "debug": "DEBUG=testcontainers* npm test"
   },
   "keywords": [],
@@ -17,6 +17,7 @@
   "devDependencies": {
     "@playwright/test": "^1.46.1",
     "@testcontainers/postgresql": "^10.13.0",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "testcontainers": "^10.13.0"
   }
 }
