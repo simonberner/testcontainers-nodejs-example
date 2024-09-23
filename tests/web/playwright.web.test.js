@@ -1,10 +1,11 @@
 const { test, expect } = require('@playwright/test');
-const { GenericContainer } = require('testcontainers');
+const { PlaywrightContainer } = require('testcontainers-node-playwright');
+const PLAYWRIGHT_IMAGE = "mcr.microsoft.com/playwright:v1.44.0-jammy";
 
 test('Search for House of Test and verify website', async () => {
     // ARRANGE
     // Start a Chrome container
-    const container = await new GenericContainer('browserless/chrome')
+    const container = await new PlaywrightContainer(PLAYWRIGHT_IMAGE)
         .withExposedPorts(3000)
         .start();
 
@@ -26,7 +27,7 @@ test('Search for House of Test and verify website', async () => {
     // ASSERT
     // Verify we're on the House of Test website
     await expect(page).toHaveURL('https://houseoftest.ch/');
-    await expect(page.locator('h1')).toContainText('House of Test');
+    await expect(page.locator('h3')).toContainText('House of Test');
 
     // Clean up
     await browser.close();
