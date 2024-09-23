@@ -28,6 +28,7 @@ This project contains a [GitHub Action](https://github.com/simonberner/testconta
 ## Resources
 
 - [Enable reusable containers](https://testcontainers.com/guides/simple-local-development-with-testcontainers-desktop/#_enable_reusable_containers_to_speed_up_the_development)
+- [Playwright module for Testcontainers](https://github.com/javierlopezdeancos/testcontainers-node-playwright)
 
 ## Credits
 
