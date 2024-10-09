@@ -11,10 +11,10 @@
 
 ## Containers
 
-For running containers, we currently have the following options:
+For running containers, we have the following options:
 
 - Use Docker Desktop to run the containers locally
-- Use [Testcontainers Desktop App](https://testcontainers.com/desktop/) to run containers locally (embedded runtime) or in the cloud (300min for free)
+- Use [Testcontainers Desktop App](https://testcontainers.com/desktop/) to run containers locally (embedded runtime) or in the Testcontainers cloud (300min for free)
 - Use [GitHub Actions to run a Testcontainer](https://www.atomicjar.com/2023/06/running-testcontainers-tests-using-github-actions/)
 
 ## Testcontainers Cloud
@@ -28,7 +28,12 @@ This project contains a [GitHub Action](https://github.com/simonberner/testconta
 ## Resources
 
 - [Enable reusable containers](https://testcontainers.com/guides/simple-local-development-with-testcontainers-desktop/#_enable_reusable_containers_to_speed_up_the_development)
+
+### Playwright
+
 - [Playwright module for Testcontainers](https://github.com/javierlopezdeancos/testcontainers-node-playwright)
+- [Playwright Docker](https://playwright.dev/docs/docker)
+- [Playwright Tags](https://mcr.microsoft.com/en-us/product/playwright/tags)
 
 ## Credits
 
