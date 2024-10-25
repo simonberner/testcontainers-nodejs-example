@@ -19,6 +19,6 @@
     "@testcontainers/postgresql": "^10.13.2",
     "jest": "^29.7.0",
     "testcontainers": "^10.13.2",
-    "testcontainers-node-playwright": "^0.5.3"
+    "testcontainers-node-playwright": "^0.5.4"
   }
 }
