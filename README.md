@@ -3,7 +3,6 @@
 [![Testcontainers nodejs example](https://github.com/simonberner/testcontainers-nodejs-example/actions/workflows/ci.yml/badge.svg)](https://github.com/simonberner/testcontainers-nodejs-example/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/simonberner/testcontainers-nodejs-example/blob/main/LICENSE)
 
-
 ## About
 
 - [Getting Started](https://testcontainers.com/getting-started/)
@@ -33,7 +32,11 @@ This project contains a [GitHub Action](https://github.com/simonberner/testconta
 
 - [Playwright module for Testcontainers](https://github.com/javierlopezdeancos/testcontainers-node-playwright)
 - [Playwright Docker](https://playwright.dev/docs/docker)
-- [Playwright Tags](https://mcr.microsoft.com/en-us/product/playwright/tags)
+- [Playwright Container Images](https://mcr.microsoft.com/en-us/product/playwright/tags)
+
+### Postgres
+
+- [Postgres Docker Images](https://hub.docker.com/_/postgres)
 
 ## Credits
 
