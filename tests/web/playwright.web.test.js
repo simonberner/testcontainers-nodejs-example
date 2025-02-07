@@ -1,6 +1,5 @@
 const { test, expect } = require('@playwright/test');
 const { PlaywrightContainer } = require('testcontainers-node-playwright');
-const PLAYWRIGHT_IMAGE = "mcr.microsoft.com/playwright:v1.48.0";
 
 test('Search for House of Test and verify website', async () => {
     // ARRANGE
@@ -19,7 +18,7 @@ test('Search for House of Test and verify website', async () => {
         // ACT
         // Navigate to Google
         await page.goto('https://www.google.com', { timeout: 60000 });
-
+        
         // Type "house of test" into the search bar and press Enter
         await page.fill('input[name="q"]', 'house of test');
         await page.press('input[name="q"]', 'Enter');
