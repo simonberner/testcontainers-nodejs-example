@@ -30,9 +30,13 @@ This project contains a [GitHub Action](https://github.com/simonberner/testconta
 
 ### Playwright
 
+It is recommended to use Docker image version that matches Playwright version. If the Playwright version in your Docker image does not match the version in your project/tests, Playwright will be unable to locate browser executables.
+
 - [Playwright module for Testcontainers](https://github.com/javierlopezdeancos/testcontainers-node-playwright)
 - [Playwright Docker](https://playwright.dev/docs/docker)
-- [Playwright Container Images](https://mcr.microsoft.com/en-us/product/playwright/tags)
+- [Playwright Docker Image Tags](https://playwright.dev/docs/docker#image-tags)
+- [Playwright official docker Images](https://mcr.microsoft.com/en-us/product/playwright/about)
+- [Docker image to run Playwright with Node.js](https://hub.docker.com/r/microsoft/playwright)
 
 ### Postgres
 
