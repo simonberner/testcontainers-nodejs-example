@@ -32,7 +32,7 @@ This project contains a [GitHub Action](https://github.com/simonberner/testconta
 
 - [Playwright module for Testcontainers](https://github.com/javierlopezdeancos/testcontainers-node-playwright)
 - [Playwright Docker](https://playwright.dev/docs/docker)
-- [Playwright Container Images](https://mcr.microsoft.com/en-us/product/playwright/tags)
+- [Playwright official docker Images](https://mcr.microsoft.com/en-us/product/playwright/about)
 
 ### Postgres
 
