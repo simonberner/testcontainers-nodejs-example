@@ -2,10 +2,12 @@
   "name": "testcontainer-node-example",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "play": "DEBUG=testcontainers* npx playwright test",
-    "debug": "DEBUG=testcontainers* npm test"
+    "test:jest": "jest",
+    "test:play": "npx playwright test --debug",
+    "test:jest:watch": "jest --watch",
+    "testcon:play": "DEBUG=testcontainers* npx playwright test",
+    "testcon:jest:debug": "DEBUG=testcontainers* npm test",
+    "report:play": "npx playwright show-report"
   },
   "keywords": [],
   "author": "Simon Berner",
