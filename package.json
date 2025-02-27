@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "test": "jest",
-    "test:play": "npx playwright test --debug",
+    "test:play": "npx playwright test",
+    "test:play:debug": "npx playwright test --debug",
     "test:jest:watch": "jest --watch",
     "testcon:play": "DEBUG=testcontainers* npx playwright test",
     "testcon:jest:debug": "DEBUG=testcontainers* npm test",
