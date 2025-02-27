@@ -1,1 +1,0 @@
-const PLAYWRIGHT_IMAGE = "mcr.microsoft.com/playwright:v1.50.1-jammy";
