@@ -3,6 +3,9 @@
 [![Testcontainers nodejs example](https://github.com/simonberner/testcontainers-nodejs-example/actions/workflows/ci.yml/badge.svg)](https://github.com/simonberner/testcontainers-nodejs-example/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/simonberner/testcontainers-nodejs-example/blob/main/LICENSE)
 
+🚧 Running playwright browser tests in a [testcontainer](https://github.com/javierlopezdeancos/testcontainers-node-playwright) is still work in progress! 🚧  
+(If you know how this works, please open a PR, thanks!)
+
 ## About
 
 - [Getting Started](https://testcontainers.com/getting-started/)
@@ -45,3 +48,4 @@ It is recommended to use Docker image version that matches Playwright version. I
 ## Credits
 
 - The project is based on [this guide](https://testcontainers.com/guides/getting-started-with-testcontainers-for-nodejs/)
+- [Page Objects vs. Functional Helpers](https://dev.to/muratkeremozcan/page-objects-vs-functional-helpers-2akj)
