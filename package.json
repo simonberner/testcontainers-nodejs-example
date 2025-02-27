@@ -2,7 +2,7 @@
   "name": "testcontainer-node-example",
   "version": "1.0.0",
   "scripts": {
-    "test:jest": "jest",
+    "test": "jest",
     "test:play": "npx playwright test --debug",
     "test:jest:watch": "jest --watch",
     "testcon:play": "DEBUG=testcontainers* npx playwright test",
