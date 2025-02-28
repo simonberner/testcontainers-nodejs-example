@@ -27,6 +27,6 @@ jobs:
       uses: docker/setup-buildx-action@v2
 
     - name: Run Jest tests with Testcontainers
-      run: npm run testcon:jest:debug
+      run: npm run testcon:jest
       env:
         TESTCONTAINERS_DOCKER_IMAGE: postgres:17.2-alpine

@@ -7,7 +7,7 @@
     "test:play:debug": "npx playwright test --debug",
     "test:jest:watch": "jest --watch",
     "testcon:play": "DEBUG=testcontainers* npx playwright test",
-    "testcon:jest:debug": "DEBUG=testcontainers* npm test",
+    "testcon:jest": "DEBUG=testcontainers* npm test",
     "report:play": "npx playwright show-report"
   },
   "keywords": [],
