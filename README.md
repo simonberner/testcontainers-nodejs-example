@@ -3,7 +3,7 @@
 [![Testcontainers nodejs example](https://github.com/simonberner/testcontainers-nodejs-example/actions/workflows/ci.yml/badge.svg)](https://github.com/simonberner/testcontainers-nodejs-example/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/simonberner/testcontainers-nodejs-example/blob/main/LICENSE)
 
-🚧 Running playwright browser tests in a [testcontainer](https://github.com/javierlopezdeancos/testcontainers-node-playwright) is still work in progress! 🚧  
+🚧 Running playwright browser tests in a [testcontainer](https://github.com/javierlopezdeancos/testcontainers-node-playwright) is still [work in progress](https://github.com/simonberner/testcontainers-nodejs-example/blob/main/tests/playwright/web.spec.js)! 🚧  
 (If you know how this works, please open a PR, thanks!)
 
 ## About
@@ -25,7 +25,7 @@ For running containers, we have the following options:
 
 ## GitHub Actions
 
-This project contains a [GitHub Action](https://github.com/simonberner/testcontainers-nodejs-example/actions) which runs the Tests (of course in a Testcontainer) when pushing/merging to main.
+This project contains a [GitHub Action](https://github.com/simonberner/testcontainers-nodejs-example/actions) which runs the Jest-Tests (Integration-Tests) in a Testcontainer when pushing/merging to main.
 
 ## Resources
 
