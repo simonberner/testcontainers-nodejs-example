@@ -12,8 +12,8 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: "html",
-  /* Override global timeout. See https://playwright.dev/docs/test-timeouts */
-  timeout: 10000,
+  /* Overriding global default timeout of 30000 because of downloading and starting testcontainers. See https://playwright.dev/docs/test-timeouts */
+  timeout: 60000,
 
   use: {
     // Base URL to use in actions like `await page.goto('/')`
