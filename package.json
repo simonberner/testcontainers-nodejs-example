@@ -15,7 +15,7 @@
   "license": "MIT",
   "description": "A Testcontainers Node.js example",
   "dependencies": {
-    "pg": "^8.13.3"
+    "pg": "^8.14.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.50.1",
