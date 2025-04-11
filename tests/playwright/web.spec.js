@@ -4,7 +4,7 @@ import { PlaywrightContainer } from "testcontainers-node-playwright";
 const PLAYWRIGHT_IMAGE = "mcr.microsoft.com/playwright:v1.50.1-jammy";
 
 describe("House of Test website", () => {
-  const TESTS_PATH = path.resolve(__dirname, "testcontainers-nodejs-example");
+  const TESTS_PATH = path.resolve(__dirname, "..", "..");
   let container;
 
   beforeAll(async () => {
@@ -19,6 +19,9 @@ describe("House of Test website", () => {
       "test", // run the test
       "--reporter=html", // output the test results in HTML
     ]);
+
+    console.log("container output", output);
+    console.log("container exitCode", exitCode);
   });
 
   afterAll(async () => {
